@@ -13,14 +13,13 @@ export const userInfo = {
     description: new Classes.Detail(
         "Description",
         <>
-            Hi there!
-            I'm a Computer Science student who got into coding back in 8th grade with Java.
-            I love diving into tough problems and figuring out solutions (even if it means a bit
-            of keyboard smashing). I'm aiming to be a full-stack developer — because why choose one
-            side when you can do it all?
-            <br /><br />
-            When I'm not coding, I'm either snapping photos, vibing to music, or hanging out with
-            my parrot, who's convinced he's the real star here.
+            I’m a software developer with 4+ years of experience building web apps and smart contracts across DeFi and Ethereum, specializing in Solidity and Web development. 
+
+    Alongside blockchain, I’m expanding my expertise in AI engineering, developing AI-powered applications and exploring how AI agents can solve real-world problems. 
+
+I’m also passionate about sharing knowledge through my YouTube channel, where I’ve published over 300 educational videos on blockchain and Web3, reaching more than 550,000 views. 
+
+I’m always eager to learn, build, and tackle challenging problems.
         </>
     ),
     role: "Full-Stack Developer",
