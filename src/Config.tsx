@@ -47,6 +47,7 @@ export const skillSets = [
         [
             Classes.Skill.python,
             Classes.Skill.solidity,
+            Classes.Skill.swift,
             Classes.Skill.rust,
             Classes.Skill.javaScript,
             Classes.Skill.typeScript,
@@ -59,39 +60,28 @@ export const skillSets = [
             Classes.Skill.reactJs,
             Classes.Skill.nextJs,
             Classes.Skill.tailwindCss,
+            Classes.Skill.node,
+            Classes.Skill.postgreSql,
+            Classes.Skill.mySql,
+            Classes.Skill.sqLite,   
+            Classes.Skill.supabase,
             Classes.Skill.html5,
             Classes.Skill.css3,
-            Classes.Skill.flutter,
-        ]
-    ),
-    new Classes.SkillSet(
-        "Back-End",
-        [
-            Classes.Skill.node,
-            Classes.Skill.mySql,
-            Classes.Skill.sqLite,
-            Classes.Skill.postgreSql,
-            Classes.Skill.supabase,
         ]
     ),
     new Classes.SkillSet(
         "Tools",
         [
-            Classes.Skill.eclipse,
-            Classes.Skill.intelliJ,
-            Classes.Skill.vsCode,
-            Classes.Skill.visualStudio,
+            Classes.Skill.docker,
             Classes.Skill.bash,
             Classes.Skill.git,
             Classes.Skill.npm,
             Classes.Skill.graphQL,
-            Classes.Skill.gradle,
-            Classes.Skill.cmake,
             Classes.Skill.nginx,
-            Classes.Skill.docker,
-            Classes.Skill.postman,
-            Classes.Skill.oci,
-            Classes.Skill.hetzner,
+            Classes.Skill.eclipse,
+            Classes.Skill.intelliJ,
+            Classes.Skill.vsCode,
+            Classes.Skill.visualStudio,
         ]
     ),
 ];

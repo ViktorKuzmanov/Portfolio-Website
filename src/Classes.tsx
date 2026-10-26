@@ -15,6 +15,7 @@ import TypeScript from "@/svg/languages/TypeScript";
 import Rust from "@/svg/languages/Rust";
 import Python from "@/svg/languages/Python";
 import Solidity from "@/svg/languages/Solidity";
+import Swift from "@/svg/languages/Swift";
 
 // Frameworks
 import Flutter from "@/svg/frameworks/Flutter";
@@ -78,6 +79,7 @@ export class Skill {
     static typeScript: Skill = new Skill("TypeScript", TypeScript);
     static rust: Skill = new Skill("Rust", Rust);
     static python: Skill = new Skill("Python", Python);
+    static swift: Skill = new Skill("Swift", Swift);
     static solidity: Skill = new Skill("Solidity", Solidity);
 
     static spring: Skill = new Skill("Spring", Spring);
