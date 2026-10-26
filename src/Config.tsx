@@ -36,17 +36,19 @@ I’m always eager to learn, build, and tackle challenging problems.
 };
 export const skillSets = [
     new Classes.SkillSet(
+        "AI Engineering",
+        [
+            Classes.Skill.langChain,
+        ]
+    ),
+    new Classes.SkillSet(
         "Languages",
         [
-            Classes.Skill.java,
-            Classes.Skill.c,
-            Classes.Skill.cpp,
-            Classes.Skill.cSharp,
-            Classes.Skill.rust,
-            Classes.Skill.dart,
+            Classes.Skill.python,
             Classes.Skill.javaScript,
             Classes.Skill.typeScript,
-            Classes.Skill.python,
+            Classes.Skill.java,
+            Classes.Skill.rust,
         ]
     ),
     new Classes.SkillSet(

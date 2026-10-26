@@ -51,6 +51,7 @@ import GraphQL from "@/svg/tools/GraphQL";
 import Hetzner from "@/svg/tools/Hetzner";
 import Nginx from "@/svg/tools/Nginx";
 import CMake from "@/svg/tools/CMake";
+import LangChain from "@/svg/tools/LangChain";
 
 export class Skill {
     name: string;
@@ -108,6 +109,7 @@ export class Skill {
     static hetzner: Skill = new Skill("Hetzner", Hetzner);
     static nginx: Skill = new Skill("Nginx", Nginx);
     static cmake: Skill = new Skill("CMake", CMake);
+    static langChain: Skill = new Skill("LangChain", LangChain);
 }
 
 export class SkillSet {
