@@ -25,15 +25,21 @@ import NextJs from "@/svg/frameworks/NextJs";
 import Arduino from "@/svg/frameworks/Arduino";
 import DotNet from "@/svg/frameworks/DotNet";
 import ElectronJs from "@/svg/frameworks/ElectronJs";
+import Express from "@/svg/frameworks/Express";
+import FastApi from "@/svg/frameworks/FastApi";
 import TailwindCss from "@/svg/frameworks/TailwindCss";
 import LWJGL from "@/svg/frameworks/LWJGL";
 import Node from "@/svg/frameworks/Node";
+import Streamlit from "@/svg/frameworks/Streamlit";
 
 // Databases
 import MySql from "@/svg/databases/MySql";
 import SqLite from "@/svg/databases/SqLite";
 import Supabase from "@/svg/databases/Supabase";
 import PostgreSql from "@/svg/databases/PostgreSql";
+import MongoDb from "@/svg/databases/MongoDb";
+import Mongoose from "@/svg/databases/Mongoose";
+import Firebase from "@/svg/databases/Firebase";
 
 // IDEs
 import Eclipse from "@/svg/ides/Eclipse";
@@ -92,11 +98,17 @@ export class Skill {
     static tailwindCss: Skill = new Skill("Tailwind", TailwindCss);
     static lwjgl: Skill = new Skill("LWJGL", LWJGL);
     static node: Skill = new Skill("Node", Node);
+    static express: Skill = new Skill("Express", Express);
+    static fastApi: Skill = new Skill("FastAPI", FastApi);
+    static streamlit: Skill = new Skill("Streamlit", Streamlit);
 
     static mySql: Skill = new Skill("MySQL", MySql);
     static sqLite: Skill = new Skill("SQLite", SqLite);
     static supabase: Skill = new Skill("Supabase", Supabase);
     static postgreSql: Skill = new Skill("PostgreSQL", PostgreSql);
+    static mongoDb: Skill = new Skill("MongoDB", MongoDb);
+    static mongoose: Skill = new Skill("Mongoose", Mongoose);
+    static firebase: Skill = new Skill("Firebase", Firebase);
 
     static eclipse: Skill = new Skill("Eclipse", Eclipse);
     static intelliJ: Skill = new Skill("IntelliJ", IntelliJ);
