@@ -3,12 +3,12 @@ import moment from "moment";
 
 export const userInfo = {
     fullName: "Viktor Kuzmanov",
-    shortName: "Mihail",
-    nickName: "muscaa",
+    shortName: "Viktor",
+    nickName: "Viktor",
     age: moment().diff(moment({
-        day: 5,
-        month: 6,
-        year: 2004,
+        day: 23,
+        month: 7,
+        year: 1999,
     }), "years"),
     description: new Classes.Detail(
         "Description",
@@ -345,12 +345,12 @@ export const contactInfo = {
     email: "viktorblockchaindev@gmail.com",
     github: "https://github.com/ViktorKuzmanov",
     telegram: "https://t.me/viktoronweb3/",
-    instagram: "https://www.instagram.com/viksaa0304/",
     linkedin: "https://www.linkedin.com/in/viktorkuzmanov/",
+    instagram: "https://www.instagram.com/viksaa0304/",
 };
 export const footer = [
-    "© " + moment().year() + " muscaa",
-    "I use arch btw",
+    "© " + moment().year() + " viktor",
+    "I’m a very fast learner btw",
 ];
 export const tracker = {
     toggled: true,

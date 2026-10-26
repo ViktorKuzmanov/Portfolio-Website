@@ -46,8 +46,8 @@ export default function Home({ delay }: { delay: number }) {
                 <Reveal className="flex gap-2 justify-center items-center mt-4 lg:mt-8" direction="right" delay={delay + 0.6}>
                     <IconLink href={Config.contactInfo.github} IconComponent={Github} />
                     <IconLink href={Config.contactInfo.telegram} IconComponent={Telegram} />
-                    <IconLink href={Config.contactInfo.instagram} IconComponent={Instagram} />
                     <IconLink href={Config.contactInfo.linkedin} IconComponent={Linkedin} />
+                    <IconLink href={Config.contactInfo.instagram} IconComponent={Instagram} />
                 </Reveal>
                 <div className="flex-grow"></div>
                 <Reveal direction="up" delay={delay + 0.2}>
