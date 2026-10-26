@@ -69,6 +69,16 @@ import Render from "@/svg/tools/Render";
 import GitHubIcon from "@/svg/tools/GitHub";
 import Xcode from "@/svg/tools/Xcode";
 import GitHubActions from "@/svg/tools/GitHubActions";
+import OpenZeppelin from "@/svg/tools/OpenZeppelin";
+import Ethereum from "@/svg/tools/Ethereum";
+import Solana from "@/svg/tools/Solana";
+import WalletConnect from "@/svg/tools/WalletConnect";
+import Wagmi from "@/svg/tools/Wagmi";
+import Chainlink from "@/svg/tools/Chainlink";
+import Ethers from "@/svg/tools/Ethers";
+import Thirdweb from "@/svg/tools/Thirdweb";
+import ThreeJs from "@/svg/tools/ThreeJs";
+import Alchemy from "@/svg/tools/Alchemy";
 
 export class Skill {
     name: string;
@@ -144,6 +154,16 @@ export class Skill {
     static gitHub: Skill = new Skill("GitHub", GitHubIcon);
     static xcode: Skill = new Skill("Xcode", Xcode);
     static gitHubActions: Skill = new Skill("Actions", GitHubActions);
+    static openZeppelin: Skill = new Skill("OpenZeppelin", OpenZeppelin);
+    static ethereum: Skill = new Skill("Ethereum", Ethereum);
+    static solana: Skill = new Skill("Solana", Solana);
+    static walletConnect: Skill = new Skill("WalletConnect", WalletConnect);
+    static wagmi: Skill = new Skill("Wagmi", Wagmi);
+    static chainlink: Skill = new Skill("Chainlink", Chainlink);
+    static ethers: Skill = new Skill("Ethers", Ethers);
+    static thirdweb: Skill = new Skill("thirdweb", Thirdweb);
+    static threeJs: Skill = new Skill("Three.js", ThreeJs);
+    static alchemy: Skill = new Skill("Alchemy", Alchemy);
 }
 
 export class SkillSet {
