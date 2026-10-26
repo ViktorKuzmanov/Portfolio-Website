@@ -101,7 +101,7 @@ export const skillSets = [
 ];
 export const jobs = [
     new Classes.Job(
-        "Freelance software developer",
+        "Freelance Software Developer",
         "Feb 2026 - present",
         "at Hitrost",
         [
@@ -112,7 +112,7 @@ export const jobs = [
                 </>
             ),
         ],
-        [ "LangGraph", "Langchain",  "Solidity", "React.js", "Node.js", "tailwind", "docker","Postgresql", "prisma orm" ],
+        [ "LangGraph", "Langchain",  "Solidity", "React.js", "Node.js", "AWS", "Docker","Postgresql"],
         undefined
     ),
     new Classes.Job(
@@ -131,8 +131,7 @@ guidance
                 </>
             ),
         ],
-        [ "html", "css", "typescript", "next", "react", "tailwind", "shadcn/ui", "animejs", "hetzner cloud",
-            "docker", "nginx", "s3", "minio", "sqlite", "drizzle orm" ],
+        [ "Solidity", "Rust","Next.js", "React.js", "Node.js", "Docker","Chainlink","Third Web", ],
         "jobs/vest-visuals.png"
     ),
     new Classes.Job(
@@ -149,25 +148,24 @@ optimization
                 </>
             ),
         ],
-        [ "java", "gradle", "jitpack", "spring", "c", "c++", "html", "css", "typescript" ],
+        [ "Swift", "Xcode", "App Store", "Github", "Docker",],
         undefined
     ),
     new Classes.Job(
-        "Blockchain Content Creator",
+        "Content Creator",
         "Oct 2021 - Present",
         "at YouTube",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Making tutorials on how to develop Defi apps , smart
-contract security, Bitcoin, Ethereum and everything
-blockchain development related. Produced 350+ educational Coding and Web3
-videos, reaching 580,000+ views on YouTube
+                    Making tutorials on AI-powered apps, Defi apps , smart
+contract security, Bitcoin, Ethereum, web development  and everything
+software development related. Produced 350+ educational videos, reaching 580,000+ views on YouTube
                 </>
             ),
         ],
-        [ "java", "gradle", "opengl" ],
+        ["AI Engeneering","RAG","LLMs", "Blockchain Development", "Ethereum", "Bitcoin", "Web Development",],
         "jobs/fiverr.png"
     ),
 ];
