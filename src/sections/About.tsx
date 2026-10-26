@@ -46,20 +46,7 @@ export default function About() {
                                     width={512}
                                     height={512}
                                     alt="Me"
-                                    style={{
-                                        maskImage: "radial-gradient(circle at 15% 85%, transparent 15%, black 18%)",
-                                    }}
                                 />
-                                <div
-                                    className="
-                                        absolute left-0 bottom-0 size-[30%] flex flex-col justify-center items-center
-                                        bg-background-3 bg-opacity-25 backdrop-blur-sm rounded-full
-                                        border-4 border-secondary
-                                    "
-                                >
-                                    <h2 className="font-extrabold">{Config.userInfo.age}</h2>
-                                    <h4 className="text-text-2">y/o</h4>
-                                </div>
                             </div>
                         </Reveal>
                     </div>
