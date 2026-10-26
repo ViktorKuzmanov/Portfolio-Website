@@ -332,8 +332,8 @@ export const projects = [
         "https://github.com/muscaa/quill"
     ),
 ];
-export const contactInfo = {
-    formspreeKey: "xrbzglbe",
+export const contactInfo = { // https://formspree.io/f/moeeewvo
+    formspreeKey: "moeeewvo",
     reCaptchaKey: "6LdLCQkqAAAAAJqQeo3ss5PdqytaM9QWrol9x5vY",
     location: "Kavadarci, Macedonia",
     phone: "+389 71960986",
