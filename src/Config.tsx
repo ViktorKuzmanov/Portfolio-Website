@@ -261,7 +261,7 @@ It combines real-time 3D graphics with decentralized, wallet-based interaction, 
                 </>
             ),
         ],
-        Classes.Status.inDev,
+        Classes.Status.complete,
         [ "Solidity", "React", "Three.js", "NFTs", "Metamask", ],
         undefined,
         undefined,
