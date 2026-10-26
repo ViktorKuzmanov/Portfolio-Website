@@ -94,39 +94,33 @@ export const skillSets = [
 ];
 export const jobs = [
     new Classes.Job(
-        "Volunteer Full-Stack Developer",
-        "Jul 2025 - present",
-        "Smart::Bits",
+        "Freelance software developer",
+        "Feb 2026 - present",
+        "at Hitrost",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Contributed to the Scoring System app for the Open Robotics Intelligent Grid event.
-                    Used GitLab for version control and YouTrack to track issues.
-                    Implemented the display builder & components using React and Spring Boot.
-                    Added an assets system using AWS S3.
-                    Fixed bugs and improved the app overall.
-                    Started rewriting the backend from Spring Boot to Nest.js and Prisma ORM.
-                    Started migrating the frontend from React Router to TanStack Router.
+                    I’m developing Web3 Solution, AI agents, intelligent chatbots, and LLM-powered applications that automate workflows and solve real-world business problems
                 </>
             ),
         ],
-        [ "html", "css", "typescript", "react", "tailwind", "java", "spring boot", "docker", "s3", "minio",
-            "nest.js", "postgresql", "prisma orm" ],
-        "jobs/smart-bits.png"
+        [ "LangGraph", "Langchain",  "Solidity", "React.js", "Node.js", "tailwind", "docker","Postgresql", "prisma orm" ],
+        undefined
     ),
     new Classes.Job(
-        "Co-Founder",
-        "May 2025 - present",
-        "Vest Visuals",
+        "Senior Blockchain Developer and Content creator",
+        "Feb 2022 - Feb 2026",
+        "at Dapp University",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Built the business website using Next.js, React, Tailwind CSS, Drizzle ORM and AWS S3.
-                    Focused on performance and SEO.
-                    Implemented authentication using Better Auth.
-                    Deployed to Hetzner Cloud using Docker.
+                    Delivered educational content focused on covering smart
+contract development, testing, deployment, and interaction
+with EVM-based protocols . Managed the Web3 developer
+community, answering technical questions, and providing
+guidance
                 </>
             ),
         ],
@@ -153,17 +147,16 @@ export const jobs = [
     //     undefined
     // ),
     new Classes.Job(
-        "Open Source Contributor",
+        "IOS Developer & Publisher",
         "Dec 2023 - present",
-        "GitHub",
+        "at App Store",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Built and maintained multiple GitHub repositories.
-                    Built full-stack apps using TypeScript, Next.js, React and Tailwind CSS.
-                    Built games & simulations using Java and OpenGL.
-                    Integrated CI/CD with GitHub Actions.
+                   Built and published iOS apps on the App Store, handling the
+full cycle from development to monetization and App Store
+optimization
                 </>
             ),
         ],
@@ -171,14 +164,16 @@ export const jobs = [
         undefined
     ),
     new Classes.Job(
-        "Freelancer",
-        "Mar 2022 - May 2022",
-        "Fiverr",
+        "Blockchain Content Creator",
+        "Oct 2021 - Present",
+        "at YouTube",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Built and maintained game plugins in Java.
+                    Making tutorials on how to develop Defi apps , smart
+contract security, Bitcoin, Ethereum and everything
+blockchain development related
                 </>
             ),
         ],
