@@ -45,30 +45,33 @@ export const skillSets = [
     new Classes.SkillSet(
         "Blockchain Development",
         [
-            Classes.Skill.openZeppelin,
+            Classes.Skill.solidity,
             Classes.Skill.ethereum,
+            
             Classes.Skill.solana,
-            Classes.Skill.walletConnect,
+            Classes.Skill.rust,
+            // Classes.Skill.walletConnect,
             Classes.Skill.wagmi,
             Classes.Skill.chainlink,
             Classes.Skill.ethers,
             Classes.Skill.thirdweb,
             Classes.Skill.threeJs,
             Classes.Skill.alchemy,
+            // Classes.Skill.openZeppelin,
         ]
     ),
-    new Classes.SkillSet(
-        "Languages",
-        [
-            Classes.Skill.python,
-            Classes.Skill.solidity,
-            Classes.Skill.swift,
-            Classes.Skill.rust,
-            Classes.Skill.javaScript,
-            Classes.Skill.typeScript,
-            Classes.Skill.java    
-        ]
-    ),
+    // new Classes.SkillSet(
+    //     "Languages",
+    //     [
+    //         Classes.Skill.python,
+    //         Classes.Skill.solidity,
+    //         Classes.Skill.swift,
+    //         Classes.Skill.rust,
+    //         Classes.Skill.javaScript,
+    //         Classes.Skill.typeScript,
+    //         Classes.Skill.java    
+    //     ]
+    // ),
     new Classes.SkillSet(
         "Full-Stack development",
         [
