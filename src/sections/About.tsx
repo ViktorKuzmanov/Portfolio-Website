@@ -42,7 +42,7 @@ export default function About() {
                                         size-full rounded-full
                                         border border-text border-opacity-25
                                     "
-                                    src="profile.png"
+                                    src="profile.jpg"
                                     width={512}
                                     height={512}
                                     alt="Me"
