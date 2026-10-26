@@ -81,6 +81,9 @@ export const skillSets = [
         "Tools",
         [
             Classes.Skill.docker,
+            Classes.Skill.claudeCode,
+            Classes.Skill.gitHubCopilot,
+            Classes.Skill.openCode,
             Classes.Skill.bash,
             Classes.Skill.git,
             Classes.Skill.npm,
@@ -88,6 +91,11 @@ export const skillSets = [
             Classes.Skill.intelliJ,
             Classes.Skill.vsCode,
             Classes.Skill.visualStudio,
+            Classes.Skill.vercel,
+            Classes.Skill.render,
+            Classes.Skill.gitHub,
+            Classes.Skill.xcode,
+            Classes.Skill.gitHubActions,
         ]
     ),
 ];
@@ -127,24 +135,6 @@ guidance
             "docker", "nginx", "s3", "minio", "sqlite", "drizzle orm" ],
         "jobs/vest-visuals.png"
     ),
-    // new Classes.Job(
-    //     "Self Employed",
-    //     "Aug 2024 - present",
-    //     undefined,
-    //     [
-    //         new Classes.Detail(
-    //             "Description",
-    //             <>
-    //                 Working as a full-stack developer, I've had the chance to transform ideas into real,
-    //                 functioning products, ranging from simple websites to more complex applications.
-    //                 I enjoy the hands-on process of building and fine-tuning each project, and I make sure
-    //                 to offer practical support and guidance so my clients feel comfortable using the software.
-    //             </>
-    //         ),
-    //     ],
-    //     [ "html", "css", "typescript", "next", "react", "supabase", "docker", "bash" ],
-    //     undefined
-    // ),
     new Classes.Job(
         "IOS Developer & Publisher",
         "Dec 2023 - present",
@@ -172,7 +162,8 @@ optimization
                 <>
                     Making tutorials on how to develop Defi apps , smart
 contract security, Bitcoin, Ethereum and everything
-blockchain development related
+blockchain development related. Produced 350+ educational Coding and Web3
+videos, reaching 580,000+ views on YouTube
                 </>
             ),
         ],

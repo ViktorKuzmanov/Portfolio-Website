@@ -61,6 +61,14 @@ import Nginx from "@/svg/tools/Nginx";
 import CMake from "@/svg/tools/CMake";
 import LangChain from "@/svg/tools/LangChain";
 import LangGraph from "@/svg/tools/LangGraph";
+import ClaudeCode from "@/svg/tools/ClaudeCode";
+import GitHubCopilot from "@/svg/tools/GitHubCopilot";
+import OpenCode from "@/svg/tools/OpenCode";
+import Vercel from "@/svg/tools/Vercel";
+import Render from "@/svg/tools/Render";
+import GitHubIcon from "@/svg/tools/GitHub";
+import Xcode from "@/svg/tools/Xcode";
+import GitHubActions from "@/svg/tools/GitHubActions";
 
 export class Skill {
     name: string;
@@ -128,6 +136,14 @@ export class Skill {
     static cmake: Skill = new Skill("CMake", CMake);
     static langChain: Skill = new Skill("LangChain", LangChain);
     static langGraph: Skill = new Skill("LangGraph", LangGraph);
+    static claudeCode: Skill = new Skill("Claude", ClaudeCode);
+    static gitHubCopilot: Skill = new Skill("Copilot", GitHubCopilot);
+    static openCode: Skill = new Skill("OpenCode", OpenCode);
+    static vercel: Skill = new Skill("Vercel", Vercel);
+    static render: Skill = new Skill("Render", Render);
+    static gitHub: Skill = new Skill("GitHub", GitHubIcon);
+    static xcode: Skill = new Skill("Xcode", Xcode);
+    static gitHubActions: Skill = new Skill("Actions", GitHubActions);
 }
 
 export class SkillSet {
