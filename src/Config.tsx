@@ -189,154 +189,158 @@ software development related. Produced 350+ educational videos, reaching 580,000
 ];
 export const projects = [
     new Classes.Project(
-        "Vest Visuals",
+        "NextRole: Autonomous AI Job-Application Agent",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Developed a photography and videography studio website that showcases the portfolio,
-                    services, and contact information. The site is built with Next.js and Tailwind CSS,
-                    ensuring a responsive and modern design.
+                    An autonomous AI agent that runs the entire job hunt. 
+Scheduled GitHub Actions workflows parse LinkedIn job-alert emails, scrape each posting, and use an LLM to score how well the role fits my profile. 
+For strong matches, it generates a tailored CV and cover letter, picks the best CV variant and an optional video pitch, and submits the application. 
+A human-in-the-loop approval step alerts me before top-tier offers go out. 
+A web dashboard tracks every application and the exact documents used. 
                 </>
             ),
         ],
-        Classes.Status.complete,
-        [ "html", "css", "typescript", "next", "react", "tailwind", "shadcn/ui", "animejs", "hetzner cloud",
-            "docker", "nginx", "s3", "minio", "sqlite", "drizzle orm" ],
+        Classes.Status.inDev,
+        [ "LangGraph", "LangChain", "Node.js", "React.js", "Docker", "Github Actions" ],
         "projects/vest-visuals.png",
         "https://vestvisuals.ro",
         "https://github.com/muscaa/vest-visuals"
     ),
     new Classes.Project(
-        "Chess",
+        "AgroAssist: RAG-Powered Crop Treatment Copilot",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Developed a chess game in Java supporting both single-player mode
-                    with a BOT opponent and multiplayer mode for local or online play.
-                    The project features an integrated player chat system with command
-                    support, full modding capabilities to extend and customize gameplay,
-                    and cross-platform compatibility with Windows, macOS, and Linux.
-                    Additionally, a dedicated launcher enables users to select a specific
-                    game version or opt for the latest version with auto-updates.
+                    A domain-specific retrieval-augmented generation (RAG) system that turns a pharmacy’s product
+catalog and an agricultural engeneer’s expertise into instant, structured recommendations. 
+
+Designed for production use in a working agricultural pharmacy to deliver consistent, expert-level advice.
                 </>
             ),
         ],
         Classes.Status.complete,
-        [ "java", "gradle", "jitpack", "fluff", "swing", "libgdx", "opengl", "networking", "jdbc", "mysql", "sqlite" ],
+        [ "LangChain", "RAG", "Semantic Search", "Vector DBs", "React.js", "Node.js", "PostgreSQL",],
         "projects/chess.png",
         undefined,
         "https://github.com/muscaa/chess"
     ),
     new Classes.Project(
-        "Logic Gate Simulator",
+        "RunChain: Play-to-Earn Web3 Runner Game",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Developed an app for designing and simulating logic gate systems.
-                    Users can build, save, and load custom logic circuits, making it
-                    easier to experiment with and understand digital logic concepts.
+                    A play-to-earn endless-runner game where gameplay is rewarded on-chain. 
+Players earn a custom Run token and collectible NFTs, minted straight to their wallet. 
+Solidity smart contracts for the token and the NFT collection are deployed to a Polygon testnet using Hardhat. 
+A JavaScript browser game connects to the contracts through Ethers.js and an Infura node provider. 
+It shows end-to-end Dapp skills: contract design, deployment, wallet integration, and game logic tied to on-chain rewards.
                 </>
             ),
         ],
         Classes.Status.complete,
-        [ "java", "gradle", "opengl", "slick2d" ],
+        [ "Solidity", "Polygon", "Ethers.js", "NFTs" ],
         "projects/logic-gate-sim.png",
         undefined,
         "https://github.com/muscaa/logic-gates-sim"
     ),
     new Classes.Project(
-        "Telebot",
+        "3D Web3 Metaverse",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Developed a cross-platform robot control application in C++ using
-                    SDL3 and Boost, enabling users to remotely operate ESP32-powered
-                    robots via the internet. It supports real-time video and audio feedback
-                    and user input via controller, keyboard or GUI. And a plugin system for
-                    adding new features and functionalities.
+                    An immersive 3D virtual world in the browser, backed by Ethereum smart contracts where you can buy virtual land. 
+
+The scene is rendered with Three.js and React Three Fiber. 
+
+It combines real-time 3D graphics with decentralized, wallet-based interaction, and shows full-stack Web3 skills from contract tests to an interactive React frontend.
                 </>
             ),
         ],
         Classes.Status.inDev,
-        [ "c", "c++", "cmake", "vcpkg", "networking", "cross-platform", "sdl3", "boost", "esp32", "java", "android", "github actions" ],
+        [ "Solidity", "React", "Three.js", "NFTs", "Metamask", ],
         undefined,
         undefined,
         "https://github.com/muscaa/telebot"
     ),
     new Classes.Project(
-        "Free CV Maker",
+        "Best-Price DEX Aggregator",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Created a free CV maker web app where users can choose from
-                    existing templates or integrate their own custom designs using
-                    a JavaScript API. Projects can be saved in the browser or downloaded,
-                    with an easy way to manage your saved projects and templates.
+                    An on-chain DEX aggregator that compares USDC to WETH swap prices on Uniswap and SushiSwap and routes the trade to whichever venue is cheaper. 
+The Solidity contract queries both liquidity pools, executes the swap, and has a React client on top. 
+It is tested against a forked Ethereum mainnet using Ganache and Infura, with a Truffle test suite. 
+It shows hands-on DeFi knowledge: AMM mechanics, token swaps, price routing, and mainnet-fork testing.
                 </>
             ),
         ],
-        Classes.Status.inDev,
-        [ "typescript", "next", "react", "tailwind css", "zustand" ],
+        Classes.Status.complete,
+        [ "Solidity", "Uniswap", "SushiSwap", "React.js",],
         "projects/cv-maker.png",
         "https://muscaa.github.io/cv-maker",
         "https://github.com/muscaa/cv-maker"
     ),
     new Classes.Project(
-        "Developer Portfolio",
+        "Automated On-Chain Payroll Vault (Chainlink Automation)",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Built this portfolio to show my work and what I'm
-                    passionate about in software development.
+                    A DeFi payroll vault where an employer deposits ETH (for example, $1,000) and the contract automatically pays out a fixed amount (for example, $100) every week. 
+
+Chainlink Automation(Keepers), trigger each payout with no manual action. 
+
+Built with Solidity, Truffle, Web3.js, React, and MetaMask, and tested on a forked mainnet with minted DAI. 
+It shows trustless automation and recurring-payment logic with a working frontend.
                 </>
             ),
         ],
         Classes.Status.complete,
-        [ "typescript", "next", "react", "tailwind css", "framer motion", "tsparticles", "formspree" ],
+        [ "Solidity", "React", "Chainlink", "Metamask", "Ethereum" ],
         "projects/portfolio.png",
         "https://muscaa.github.io/portfolio",
         "https://github.com/muscaa/portfolio"
     ),
-    new Classes.Project(
-        "Fluff Libraries",
-        [
-            new Classes.Detail(
-                "Description",
-                <>
-                    Developed a set of small, versatile, and modular libraries,
-                    designed to be efficient and easy to use in different projects.
-                </>
-            ),
-        ],
-        Classes.Status.complete,
-        [ "java", "gradle", "jitpack" ],
-        undefined,
-        undefined,
-        "https://github.com/muscaa/fluff-core"
-    ),
-    new Classes.Project(
-        "Quill",
-        [
-            new Classes.Detail(
-                "Description",
-                <>
-                    Built a cross-platform package manager with a command-line
-                    interface for installing and updating tools and libraries.
-                </>
-            ),
-        ],
-        Classes.Status.inDev,
-        [ "java", "gradle", "jitpack", "fluff" ],
-        undefined,
-        undefined,
-        "https://github.com/muscaa/quill"
-    ),
+    // new Classes.Project(
+    //     "Fluff Libraries",
+    //     [
+    //         new Classes.Detail(
+    //             "Description",
+    //             <>
+    //                 Developed a set of small, versatile, and modular libraries,
+    //                 designed to be efficient and easy to use in different projects.
+    //             </>
+    //         ),
+    //     ],
+    //     Classes.Status.complete,
+    //     [ "java", "gradle", "jitpack" ],
+    //     undefined,
+    //     undefined,
+    //     "https://github.com/muscaa/fluff-core"
+    // ),
+    // new Classes.Project(
+    //     "Quill",
+    //     [
+    //         new Classes.Detail(
+    //             "Description",
+    //             <>
+    //                 Built a cross-platform package manager with a command-line
+    //                 interface for installing and updating tools and libraries.
+    //             </>
+    //         ),
+    //     ],
+    //     Classes.Status.inDev,
+    //     [ "java", "gradle", "jitpack", "fluff" ],
+    //     undefined,
+    //     undefined,
+    //     "https://github.com/muscaa/quill"
+    // ),
 ];
 export const contactInfo = { // https://formspree.io/f/moeeewvo
     formspreeKey: "moeeewvo",
