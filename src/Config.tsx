@@ -13,7 +13,8 @@ export const userInfo = {
     description: new Classes.Detail(
         "Description",
         <>
-            I’m a software developer with 4+ years of experience building web apps and smart contracts across DeFi and Ethereum, specializing in Solidity and Web development. 
+            I’m a software developer with 4+ years of experience building AI     powered applications and Web3
+            solutions across DeFi and Ethereum, specializing in Solidity and Web development. 
 
     Alongside blockchain, I’m expanding my expertise in AI engineering, developing AI-powered applications and exploring how AI agents can solve real-world problems. 
 
@@ -22,15 +23,15 @@ I’m also passionate about sharing knowledge through my YouTube channel, where 
 I’m always eager to learn, build, and tackle challenging problems.
         </>
     ),
-    role: "Full-Stack Developer",
+    role: "AI-First Software Developer",
     education: {
-        link: "https://info.uvt.ro/en/",
-        school: "West University of Timisoara",
-        period: "Bachelor's degree 2023 - 2026",
+        link: "https://finki.ukim.mk/",
+        school: "Faculty of Computer Science and Engineering Skopje",
+        period: "Bachelor's degree 2018 - 2025",
     },
     resumes: {
-        EN: "resumes/EN.pdf",
-        RO: "resumes/RO.pdf",
+        EN: "resumes/resume-en.pdf",
+        // RO: "resumes/RO.pdf",
     },
 };
 export const skillSets = [
