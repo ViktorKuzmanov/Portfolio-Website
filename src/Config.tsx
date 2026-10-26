@@ -340,13 +340,13 @@ export const projects = [
 export const contactInfo = {
     formspreeKey: "xrbzglbe",
     reCaptchaKey: "6LdLCQkqAAAAAJqQeo3ss5PdqytaM9QWrol9x5vY",
-    location: "Timisoara, Romania",
-    phone: "+40 738 479 198",
-    email: "muscamihailp@gmail.com",
-    github: "https://github.com/muscaa/",
-    telegram: "https://t.me/musca_mihail/",
-    instagram: "https://www.instagram.com/musca.mihail/",
-    linkedin: "https://www.linkedin.com/in/muscaa/",
+    location: "Kavadarci, Macedonia",
+    phone: "+389 71960986",
+    email: "viktorblockchaindev@gmail.com",
+    github: "https://github.com/ViktorKuzmanov",
+    telegram: "https://t.me/viktoronweb3/",
+    instagram: "https://www.instagram.com/viksaa0304/",
+    linkedin: "https://www.linkedin.com/in/viktorkuzmanov/",
 };
 export const footer = [
     "© " + moment().year() + " muscaa",
