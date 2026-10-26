@@ -150,7 +150,7 @@ guidance
             ),
         ],
         [ "Solidity", "Rust","Next.js", "React.js", "Node.js", "Docker","Chainlink","Third Web", ],
-        "jobs/vest-visuals.png"
+        undefined
     ),
     new Classes.Job(
         "IOS Developer & Publisher",
@@ -184,7 +184,7 @@ software development related. Produced 350+ educational videos, reaching 580,000
             ),
         ],
         ["AI Engeneering","RAG","LLMs", "Blockchain Development", "Ethereum", "Bitcoin", "Web Development",],
-        "jobs/fiverr.png"
+        undefined
     ),
 ];
 export const projects = [
