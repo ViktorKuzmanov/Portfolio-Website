@@ -1,0 +1,18 @@
+import React from "react";
+
+export default function LangGraph({ className }: { className?: string }) {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="128px"
+            height="128px"
+            className={className}
+        >
+            <path
+                fill="#7FC8FF"
+                d="M5 19H10A5 5 0 115 14ZM19 14A5 5 0 1114 19H19ZM10 5A5 5 0 105 10V5ZM19 5V10A5 5 0 1014 5Z"
+            />
+        </svg>
+    );
+}

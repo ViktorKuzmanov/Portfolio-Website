@@ -14,6 +14,7 @@ import JavaScript from "@/svg/languages/JavaScript";
 import TypeScript from "@/svg/languages/TypeScript";
 import Rust from "@/svg/languages/Rust";
 import Python from "@/svg/languages/Python";
+import Solidity from "@/svg/languages/Solidity";
 
 // Frameworks
 import Flutter from "@/svg/frameworks/Flutter";
@@ -52,6 +53,7 @@ import Hetzner from "@/svg/tools/Hetzner";
 import Nginx from "@/svg/tools/Nginx";
 import CMake from "@/svg/tools/CMake";
 import LangChain from "@/svg/tools/LangChain";
+import LangGraph from "@/svg/tools/LangGraph";
 
 export class Skill {
     name: string;
@@ -76,6 +78,7 @@ export class Skill {
     static typeScript: Skill = new Skill("TypeScript", TypeScript);
     static rust: Skill = new Skill("Rust", Rust);
     static python: Skill = new Skill("Python", Python);
+    static solidity: Skill = new Skill("Solidity", Solidity);
 
     static spring: Skill = new Skill("Spring", Spring);
     static arduino: Skill = new Skill("Arduino", Arduino);
@@ -110,6 +113,7 @@ export class Skill {
     static nginx: Skill = new Skill("Nginx", Nginx);
     static cmake: Skill = new Skill("CMake", CMake);
     static langChain: Skill = new Skill("LangChain", LangChain);
+    static langGraph: Skill = new Skill("LangGraph", LangGraph);
 }
 
 export class SkillSet {

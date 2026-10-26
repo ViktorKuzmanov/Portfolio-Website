@@ -39,33 +39,34 @@ export const skillSets = [
         "AI Engineering",
         [
             Classes.Skill.langChain,
+            Classes.Skill.langGraph,
         ]
     ),
     new Classes.SkillSet(
         "Languages",
         [
             Classes.Skill.python,
+            Classes.Skill.solidity,
+            Classes.Skill.rust,
             Classes.Skill.javaScript,
             Classes.Skill.typeScript,
-            Classes.Skill.java,
-            Classes.Skill.rust,
+            Classes.Skill.java    
         ]
     ),
     new Classes.SkillSet(
-        "Front-End",
+        "Full-Stack development",
         [
+            Classes.Skill.reactJs,
+            Classes.Skill.nextJs,
+            Classes.Skill.tailwindCss,
             Classes.Skill.html5,
             Classes.Skill.css3,
-            Classes.Skill.nextJs,
-            Classes.Skill.reactJs,
-            Classes.Skill.tailwindCss,
             Classes.Skill.flutter,
         ]
     ),
     new Classes.SkillSet(
         "Back-End",
         [
-            Classes.Skill.spring,
             Classes.Skill.node,
             Classes.Skill.mySql,
             Classes.Skill.sqLite,
