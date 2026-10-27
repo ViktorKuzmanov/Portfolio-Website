@@ -345,7 +345,7 @@ It shows trustless automation and recurring-payment logic with a working fronten
 export const contactInfo = { // https://formspree.io/f/moeeewvo
     formspreeKey: "moeeewvo",
     reCaptchaKey: "6LdLCQkqAAAAAJqQeo3ss5PdqytaM9QWrol9x5vY",
-    location: "Kavadarci, Macedonia",
+    location: "Skopje, Macedonia",
     phone: "+389 71960986",
     email: "viktorblockchaindev@gmail.com",
     github: "https://github.com/ViktorKuzmanov",
