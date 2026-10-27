@@ -205,8 +205,8 @@ A web dashboard tracks every application and the exact documents used.
         Classes.Status.inDev,
         [ "LangGraph", "LangChain", "Node.js", "React.js", "Docker", "Github Actions" ],
         "projects/vest-visuals.png",
-        "https://vestvisuals.ro",
-        "https://github.com/muscaa/vest-visuals"
+        // "https://vestvisuals.ro",
+        // "https://github.com/muscaa/vest-visuals"
     ),
     new Classes.Project(
         "AgroAssist: RAG-Powered Crop Treatment Copilot",
@@ -224,8 +224,8 @@ Designed for production use in a working agricultural pharmacy to deliver consis
         Classes.Status.complete,
         [ "LangChain", "RAG", "Semantic Search", "Vector DBs", "React.js", "Node.js", "PostgreSQL",],
         "projects/chess.png",
-        undefined,
-        "https://github.com/muscaa/chess"
+        // undefined,
+        // "https://github.com/muscaa/chess"
     ),
     new Classes.Project(
         "RunChain: Play-to-Earn Web3 Runner Game",
@@ -245,7 +245,7 @@ It shows end-to-end Dapp skills: contract design, deployment, wallet integration
         [ "Solidity", "Polygon", "Ethers.js", "NFTs" ],
         "projects/logic-gate-sim.png",
         undefined,
-        "https://github.com/muscaa/logic-gates-sim"
+        "https://www.youtube.com/watch?v=ZjQzxXhebVc"
     ),
     new Classes.Project(
         "3D Web3 Metaverse",
@@ -265,7 +265,7 @@ It combines real-time 3D graphics with decentralized, wallet-based interaction, 
         [ "Solidity", "React", "Three.js", "NFTs", "Metamask", ],
         undefined,
         undefined,
-        "https://github.com/muscaa/telebot"
+        "https://www.youtube.com/watch?v=EqmD4BYkffg"
     ),
     new Classes.Project(
         "Best-Price DEX Aggregator",
@@ -283,8 +283,8 @@ It shows hands-on DeFi knowledge: AMM mechanics, token swaps, price routing, and
         Classes.Status.complete,
         [ "Solidity", "Uniswap", "SushiSwap", "React.js",],
         "projects/cv-maker.png",
-        "https://muscaa.github.io/cv-maker",
-        "https://github.com/muscaa/cv-maker"
+        "https://github.com/ViktorKuzmanov/Dex-Aggregator-Blockchain-app",
+        "https://github.com/ViktorKuzmanov/Dex-Aggregator-Blockchain-app"
     ),
     new Classes.Project(
         "Automated On-Chain Payroll Vault (Chainlink Automation)",
@@ -305,7 +305,7 @@ It shows trustless automation and recurring-payment logic with a working fronten
         [ "Solidity", "React", "Chainlink", "Metamask", "Ethereum" ],
         "projects/portfolio.png",
         "https://muscaa.github.io/portfolio",
-        "https://github.com/muscaa/portfolio"
+        "https://github.com/ViktorKuzmanov/Vault-app-with-frontend"
     ),
     // new Classes.Project(
     //     "Fluff Libraries",
