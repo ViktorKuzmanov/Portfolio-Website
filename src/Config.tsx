@@ -204,7 +204,7 @@ A web dashboard tracks every application and the exact documents used.
         ],
         Classes.Status.inDev,
         [ "LangGraph", "LangChain", "Node.js", "React.js", "Docker", "Github Actions" ],
-        "projects/vest-visuals.png",
+        "projects/NextRole.jpg",
         // "https://vestvisuals.ro",
         // "https://github.com/muscaa/vest-visuals"
     ),
@@ -223,7 +223,7 @@ Designed for production use in a working agricultural pharmacy to deliver consis
         ],
         Classes.Status.complete,
         [ "LangChain", "RAG", "Semantic Search", "Vector DBs", "React.js", "Node.js", "PostgreSQL",],
-        "projects/chess.png",
+        "projects/agroAssist.jpg",
         // undefined,
         // "https://github.com/muscaa/chess"
     ),
@@ -243,7 +243,7 @@ It shows end-to-end Dapp skills: contract design, deployment, wallet integration
         ],
         Classes.Status.complete,
         [ "Solidity", "Polygon", "Ethers.js", "NFTs" ],
-        "projects/logic-gate-sim.png",
+        "projects/runChain.jpg",
         undefined,
         "https://www.youtube.com/watch?v=ZjQzxXhebVc"
     ),
@@ -263,7 +263,7 @@ It combines real-time 3D graphics with decentralized, wallet-based interaction, 
         ],
         Classes.Status.complete,
         [ "Solidity", "React", "Three.js", "NFTs", "Metamask", ],
-        undefined,
+        "projects/3dgame.jpg",
         undefined,
         "https://www.youtube.com/watch?v=EqmD4BYkffg"
     ),
@@ -282,7 +282,7 @@ It shows hands-on DeFi knowledge: AMM mechanics, token swaps, price routing, and
         ],
         Classes.Status.complete,
         [ "Solidity", "Uniswap", "SushiSwap", "React.js",],
-        "projects/cv-maker.png",
+        "projects/dex.jpg",
         "https://github.com/ViktorKuzmanov/Dex-Aggregator-Blockchain-app",
         "https://github.com/ViktorKuzmanov/Dex-Aggregator-Blockchain-app"
     ),
@@ -303,7 +303,7 @@ It shows trustless automation and recurring-payment logic with a working fronten
         ],
         Classes.Status.complete,
         [ "Solidity", "React", "Chainlink", "Metamask", "Ethereum" ],
-        "projects/portfolio.png",
+        "projects/payroll.jpg",
         "https://muscaa.github.io/portfolio",
         "https://github.com/ViktorKuzmanov/Vault-app-with-frontend"
     ),
